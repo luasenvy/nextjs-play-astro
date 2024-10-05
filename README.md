@@ -4,9 +4,9 @@
 
 ## LICENSE
 
-FREE / OPEN SOURCE - [play-astro](https://github.com/TailGrids/play-astro?tab=readme-ov-file#-license-for-play-astro-template)
+FREE / OPEN SOURCE - [play-astro - License for Play Astro Template](https://github.com/TailGrids/play-astro?tab=readme-ov-file#-license-for-play-astro-template)
 
-MIT LICENSE - [nextjs-play-astro](https://github.com/luasenvy/nextjs-play-astro/blob/main/LICENSE)
+MIT LICENSE - [nextjs-play-astro - LICENSE](https://github.com/luasenvy/nextjs-play-astro/blob/main/LICENSE)
 
 ## Tested Environment
 
