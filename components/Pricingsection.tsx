@@ -68,8 +68,8 @@ export default function Pricingsection() {
         </div>
 
         <div className="-mx-4 flex flex-wrap justify-center">
-          {priceboxes.map((pricebox) => (
-            <div className="w-full px-4 md:w-1/2 lg:w-1/3">
+          {priceboxes.map((pricebox, i) => (
+            <div key={`pricebox-${i}`} className="w-full px-4 md:w-1/2 lg:w-1/3">
               <div
                 className={`wow fadeInUp relative z-10 mb-10 overflow-hidden rounded-xl bg-white dark:bg-dark-2 py-10 px-8 shadow-pricing sm:p-12 lg:py-10 lg:px-6 xl:p-14`}
                 data-wow-delay=".15s"
@@ -98,7 +98,12 @@ export default function Pricingsection() {
 
                   <div className="flex flex-col gap-[14px]">
                     {pricebox.offerlist.map((item) => (
-                      <p className={`text-base text-body-color dark:text-dark-6`}>{item.title}</p>
+                      <p
+                        key={`pricebox-${i}`}
+                        className={`text-base text-body-color dark:text-dark-6`}
+                      >
+                        {item.title}
+                      </p>
                     ))}
                   </div>
                 </div>
