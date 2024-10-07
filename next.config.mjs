@@ -43,7 +43,10 @@ function extendsMetadataContent() {
       computed: false,
       kind: "init",
       key: { type: "Literal", value: "slug" },
-      value: { type: "Literal", value: title.replace(/[\s]+/g, "-").toLowerCase() },
+      value: {
+        type: "Literal",
+        value: encodeURIComponent(title.replace(/[\s]+/g, "-").toLowerCase()),
+      },
     });
   };
 }

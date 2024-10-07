@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import Link from "next/link";
+import Link from "@/components/ViewTransitionLink";
 
 import ArticleAuthor01Image from "@/public/assets/blog/article-author-01.png";
 import ArticleAuthor02Image from "@/public/assets/blog/article-author-02.png";

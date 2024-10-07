@@ -1,5 +1,6 @@
 import Image from "next/image";
-import Link from "next/link";
+
+import Link from "@/components/ViewTransitionLink";
 
 import AyrouiWhiteImage from "@/public/assets/brands/ayroui-white.svg";
 import AyrouiImage from "@/public/assets/brands/ayroui.svg";

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/ViewTransitionLink";
 
 export default function Breadcrumb({ children }: React.HTMLAttributes<HTMLDivElement>) {
   return (

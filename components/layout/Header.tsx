@@ -2,10 +2,12 @@
 
 import classnames from "classnames";
 import Image from "next/image";
-import Link from "next/link";
+
 import { usePathname } from "next/navigation";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+
+import Link from "@/components/ViewTransitionLink";
 
 import getTheme from "@/lib/getTheme";
 import LogoWhiteImage from "@/public/assets/logo/logo-white.svg";

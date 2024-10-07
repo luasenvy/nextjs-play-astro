@@ -1,7 +1,8 @@
 import Image from "next/image";
-import Link from "next/link";
 
 import Pagination from "@/components/Pagination";
+import Link from "@/components/ViewTransitionLink";
+
 import Breadcrumb from "@/components/layout/Breadcrumb";
 
 import posts from "@/lib/data/posts";

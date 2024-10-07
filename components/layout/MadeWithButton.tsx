@@ -1,5 +1,6 @@
 import Image from "next/image";
-import Link from "next/link";
+
+import Link from "@/components/ViewTransitionLink";
 
 import TailgridsWhiteImage from "@/public/assets/brands/tailgrids-white.svg";
 import TailgridsImage from "@/public/assets/brands/tailgrids.svg";

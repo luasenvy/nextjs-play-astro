@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 
 import { useParams } from "next/navigation";
 import { useMemo } from "react";
@@ -9,6 +8,7 @@ import { useMemo } from "react";
 import Newsletterbox from "@/components/Newsletterbox";
 import PopularArticles from "@/components/PopularArticles";
 import RelatedArticles from "@/components/RelatedArticles";
+import Link from "@/components/ViewTransitionLink";
 
 import posts from "@/lib/data/posts";
 import BannerAdImage from "@/public/assets/blog/bannder-ad.png";

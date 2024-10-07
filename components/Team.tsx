@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import Link from "next/link";
+import Link from "@/components/ViewTransitionLink";
 
 import Team01Image from "@/public/assets/team/team-01.png";
 import Team02Image from "@/public/assets/team/team-02.png";

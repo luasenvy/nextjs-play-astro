@@ -1,6 +1,6 @@
-import Link from "next/link";
-
 import Formbox from "@/components/Formbox";
+import Link from "@/components/ViewTransitionLink";
+
 import Breadcrumb from "@/components/layout/Breadcrumb";
 
 export default function SigninPage() {

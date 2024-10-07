@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-import Link from "next/link";
-
 import DefaultLayout from "./(default)/layout";
+
+import Link from "@/components/ViewTransitionLink";
 
 import Breadcrumb from "@/components/layout/Breadcrumb";
 

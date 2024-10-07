@@ -1,8 +1,10 @@
 "use client";
 
 import classnames from "classnames";
-import Link from "next/link";
+
 import { useEffect, useRef, useState } from "react";
+
+import Link from "@/components/ViewTransitionLink";
 
 export default function BackToTop() {
   const backToTopRef = useRef<HTMLAnchorElement>(null);

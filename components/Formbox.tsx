@@ -1,5 +1,6 @@
 import Image from "next/image";
-import Link from "next/link";
+
+import Link from "@/components/ViewTransitionLink";
 
 import LogoWhiteImage from "@/public/assets/logo/logo-white.svg";
 import LogoImage from "@/public/assets/logo/logo.svg";
